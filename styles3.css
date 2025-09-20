@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+}
+
+
+body {
+  /*  min-height: 100 vh;*/
+}
+.cards{
+    background-color: black;
+    color: white;
+    display: flex;
+    overflow: hidden;
+    gap: 2px;
+   
+   /* height: 100 vh;*/
+}
+.card1{
+    background:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.8)), url(Imagehw3_1.png);
+
+}
+.card2{
+    background:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.8)), url(imagehw3_2.png);
+     
+}
+.card3{
+    background:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.9)), url(Imagehw3_3.png);
+}
+.card4{
+    background:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.8)), url(Imagehw3_4.png);
+    
+}
+.card{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    gap: 16px;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0,0,0) rgba(0,0,0,0.7));
+     transition: 0.7s;
+
+}
+.card:hover{
+    transform: scale(1.08);
+    z-index: 1;
+    position: relative;
+}
+h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    
+}
+h4 {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: normal;
+    
+}
