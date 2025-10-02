@@ -205,7 +205,7 @@ h2 {
     width: 235px;
     display: block;
     margin: 0 auto;
-    background: green;
+    background-color: green;
 }
 
 
@@ -274,3 +274,4 @@ nav{
    }
 
 }
+
