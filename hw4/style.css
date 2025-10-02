@@ -208,6 +208,73 @@ h2 {
     
 }
 
+footer{
+    background: #033c65;
+    padding: 60px;
+}
+.footer-body{
+    max-width: 1160px;
+    margin: 0 auto;
+    color: white;
+}
+.footer-body h3{
+    color:white;
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.footer-body-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0px 30px;
+}
+.footer-body-links ul{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.footer-body-links li{
+    list-style: none;
+    
+}
+.footer-body-links a{
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    font-family: lora;
+
+}
+.footer-body-links h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Lora", serif;
+}
+.footer-social-media{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0px;
+}
+.footer-policy{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 2px solid white;
+    padding: 15px 0px 2px;
+}
+.footer-policy a{
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: Lora;
+}
+.rights{
+    font-weight: 100;
+    opacity: 0.5;
+    font-family: Lora;
+}
 
 
 @media screen and (max-width:992px){
@@ -245,6 +312,14 @@ nav{
    .contact-form{
     gap: 30px;
    }
+}
+@media screen and (max-width:550px) {
+.footer-body-links,.footer-policy, .footer-social-media, .footer-rights{
+    display: none;
+}
+.footer-body h3{
+    font-size: 32px;
+}
 }
 @media screen and (max-width:450px) {
     .logo{
